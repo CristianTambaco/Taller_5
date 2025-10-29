@@ -10,7 +10,7 @@ import { getFirestore } from "firebase/firestore";  // * AGREGADO
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDalScBy2_VmxPMZNYLPJhDQtY1sw9wDY4",
+  apiKey: "",
   authDomain: "epn-proyectos-5e98c.firebaseapp.com",
   projectId: "epn-proyectos-5e98c",
   storageBucket: "epn-proyectos-5e98c.firebasestorage.app",
@@ -23,4 +23,5 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 export const db = getFirestore(app);  // * AGREGADO Y EXPORTADO
